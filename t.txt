@@ -1,0 +1,40 @@
+monday june 26th 
+
+mobility data research on water wells
+
+- demographics
+
+
+- social capital index
+--> like political captial but on a connection level that allows u to be more resilient to disasters
+---> bounding, bridging, linking
+----> family/friends | aquaintences, ppl u know relatively well through your bounding connections | connections w established organizations/institutions
+
+
+daily mobility
+- how often ppl travel from one community to another
+- assumption is that more mobilibty/connections == more resources
+- more population --> more resources
+
+
+flooding zones is possible 4th input
+
+all three inputs describe vulnurability of three indv
+
+
+output is predicting contaminants of water wells in texas
+
+
+
+mcmc (monte carlo markov chain model)
+ - regression model see how diff x contritribute to your
+
+partial dependence framework to better explain mcmc model
+- 
+
+sir model for mobility data bias
+how seed in some block group spreads using sir model
+
+
+
+x3 bar x3 hat
