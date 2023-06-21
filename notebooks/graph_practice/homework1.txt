@@ -1,0 +1,39 @@
+1. Compute pagerank vectors for each of the following users without 
+directly computing algorithim
+
+Given: 
+
+A : {1,2,4}
+B : {3,4,5}
+C : {3,5}
+D : {2}
+
+Algo:
+
+sum ( beta * ri / di ) + sum (1 - beta) * const teleport probability * ri
+
+1: 1
+2: 2
+3: 2
+4: 2
+5: 2
+
+1.1 Eloise : {1}
+
+just compute the pagerank using the sum (non-matrix definition)
+plug in the given values into a pagerank, compute with degree as values
+
+1.2 Felicity: {5}
+
+add Eloise to previous pagerank computation and solve
+
+1.3
+
+start from scratch but w initial weights
+
+1.4 what is the set of all solvable pagerank vectors?
+
+{1,5} lol 
+
+
+

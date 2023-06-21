@@ -1,0 +1,18 @@
+Inputs: 
+
+Mobility data graph
+Choliform Well information
+
+
+Output: 
+
+Social Capital related measurement of Choliform
+
+GNN Methodology
+
+- Graph/Subgraph level prediction
+- finding patters on a community level that correlate to different social capitals
+- embedding similar communities in a vector space that corresponds to their social capitals
+
+Training Data Limitations
+- Limited to 3 months of user data on an ~hourly basis
