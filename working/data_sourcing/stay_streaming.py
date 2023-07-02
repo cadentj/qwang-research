@@ -4,21 +4,10 @@ from sklearn.cluster import KMeans
 import numpy as np
 import pickle as pkl
 
-class UserPOIGraph:
+class StreamStayPoints:
 
     def __init__ (self):
-        self.load_header_data()
-        self.load_poi_data()
-        self.init_node_labels()
-
-    def load_header_data (self):
-        self.header_data = pd.read_csv('data/processed/processed_header.csv')
-        print("Loaded header data")
-    
-
-    def load_poi_data (self):
-        self.poi_data = pd.read_csv('data/processed/houston_poi.csv')
-        print("Loaded POI data")
+        pass
 
     def load_stay_points(self, date):
         month = date[0]
@@ -59,24 +48,7 @@ class UserPOIGraph:
                 if deep == depth:
                     break
 
-
-    def init_node_labels(self):
-        header_locations = self.header_data[['lat', 'lon']]
-        poi_locations = self.poi_data[['lat', 'lon']]
-        node_labels = pd.concat([header_locations, poi_locations])
-        self.node_labels = node_labels.to_numpy()
-
-    def initialize_mobility_graph(self):
-        self.mobility_graph = nx.DiGraph()
-
-
-    def weigh_mobility_graph():
-        # Weight mobility graph based on stay point location and time spent at each location
-        pass
-
-
-
-test = UserPOIGraph()
+test = StreamStayPoints()
 test.cluster_to_pois()
 
 # print(pkl.load(open('working/clustered_stay_points/test.pkl','rb')))
