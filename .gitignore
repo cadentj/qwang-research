@@ -3,6 +3,11 @@
 # data
 /data
 
+# dumps
+/working/dumps
+/working/data_sourcing/dumps
+/working/data_sourcing/cache
+
 .rar
 
 /notebooks/graph_practice/dataset
